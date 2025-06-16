@@ -173,7 +173,7 @@ address {
 .editor {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url(./images/editor/editor-background-min.jpg);
+  background-image: url(../images/editor/editor-background-min.jpg);
 }
 
 .editor-text {
