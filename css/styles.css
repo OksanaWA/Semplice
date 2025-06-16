@@ -2,7 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   font-style: normal;
-  background-color: #ffffff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -16,6 +20,8 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ul,
@@ -167,7 +173,7 @@ address {
 .editor {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url(/images/editor/еditor-background-min.jpg);
+  background-image: url(/images/editor/editor-background-min.jpg);
 }
 
 .editor-text {
@@ -210,10 +216,79 @@ address {
   background: #ffd300;
   padding-top: 60px;
 }
+.team-item-wrp {
+  display: flex;
+}
 .team-text {
   font-weight: 400;
   font-size: 13px;
   line-height: 108%;
   letter-spacing: 0.08em;
   color: #000;
+  margin-bottom: 54px;
+}
+.team-line {
+  width: 946px;
+  height: 2px;
+  background: #000;
+}
+.team-title {
+  font-weight: 400;
+  font-size: 84px;
+  line-height: 103%;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.team-title-smaller {
+  font-weight: 400;
+  font-size: 84px;
+  line-height: 103%;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.team-title-smallest {
+  font-weight: 400;
+  font-size: 83px;
+  line-height: 104%;
+  letter-spacing: 0.03em;
+  color: #000;
+  margin-bottom: 22px;
+}
+.team-item-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  color: #4c3f00;
+  margin-bottom: 79px;
+}
+.team-item-svg {
+  display: flex;
+  gap: 66px;
+}
+.on {
+  fill: #4c3f00;
+  margin-bottom: 146px;
+}
+.team-list {
+  display: flex;
+  row-gap: 59px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-list-item {
+  width: calc((100% - 40px) / 4);
+}
+
+.team-name {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 139%;
+  color: #000;
+}
+.team-name-text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 139%;
+  color: #000;
+  margin-bottom: 52px;
 }
